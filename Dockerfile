@@ -14,4 +14,4 @@ COPY . /srv/shiny-server/app
 EXPOSE 3838
 
 # Run Shiny app
-CMD ["/usr/bin/shiny-server.sh"]
+CMD ["R", "-e", "shiny::runApp('/srv/shiny-server/app', host = '0.0.0.0', port = 3838)"]
