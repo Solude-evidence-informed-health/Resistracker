@@ -1,0 +1,12 @@
+name: TESTE
+title: TESTE
+username:
+account: ipsr
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 8931694
+bundleId: 7541644
+url: https://ipsr.shinyapps.io/TESTE/
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: dados/dados_completos.xlsx|www/icon_page.ico

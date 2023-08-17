@@ -1,0 +1,12 @@
+name: hu_micro_antibiograma
+title: hu_micro_antibiograma
+username:
+account: ipsdatalab
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 8413295
+bundleId: 7546403
+url: https://ipsdatalab.shinyapps.io/hu_micro_antibiograma/
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .gitattributes|.RData|dados/dados_completos.xlsx|funcoes_de_coleta/funcao_fetch.R|funcoes_de_coleta/funcao_fetch_prevalencia.R|www/icon_page.ico
