@@ -92,4 +92,4 @@ server <- function(input, output, session) {
   source("modulos/server_api_fda.R", local = TRUE)
 }
 
-shinyApp(ui, server)
+shinyApp(ui, server, options = list(host = "0.0.0.0", port = 3838))
