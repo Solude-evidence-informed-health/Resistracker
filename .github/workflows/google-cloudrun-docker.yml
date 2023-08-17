@@ -47,8 +47,7 @@ jobs:
 
       - name: Deploy to Cloud Run
         id: deploy
-        run: gcloud run deploy ${{ env.SERVICE }} --image gcr.io/${{ env.PROJECT_ID }}/${{ env.SERVICE }}:${{ github.sha }} --platform managed --region ${{ env.REGION }} --allow-unauthenticated --max-instances=10
-        args: ["--port", "3838"]
+        run: gcloud run deploy ${{ env.SERVICE }} --image gcr.io/${{ env.PROJECT_ID }}/${{ env.SERVICE }}:${{ github.sha }} --platform managed --region ${{ env.REGION }} --allow-unauthenticated --max-instances=10 --port 3838
 
       # If required, use the Cloud Run url output in later steps
       - name: Show Output
